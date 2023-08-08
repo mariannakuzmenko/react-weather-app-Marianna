@@ -1,22 +1,32 @@
-import React from "react";
-
-import './App.css';
-
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Weather App</h1>
-      <footer>
-        This project was coded by {""}
-        <a href="https://mariannaportfolio.netlify.app/" target="_blank">
-        Marianna Kuzmenko
-        </a>{""}
-        and is{""}
-        <a href="https://github.com/mariannakuzmenko/react-weather-app-Marianna" target="_blank">
-          open-sourced on GitHub
-        </a>
-      </footer>
-    </div>
-  );
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Light.eot);
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Regular.eot);
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Regular.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cerebri Sans";
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Bold.eot);
+  src: url(../public/fonts/Cerebri-Sans/CerebriSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: #f9f7fe;
+}
+
+.App {
+  max-width: 800px;
+  margin: 60px auto;
+}
